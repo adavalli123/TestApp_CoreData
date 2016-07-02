@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "4b52e1b925eddffe4baed8ae9c841285"
+build_time: [520737063, 515198000]
+inputs:
+  "/Users/srikanthadavalli/Documents/iOS_Projects/CoreDataTutorial/TestCoreDataApp/TestCoreDataApp/TableViewController.swift": [520737062, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/CoreDataTutorial/TestCoreDataApp/TestCoreDataApp/TableViewCell.swift": [520735685, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/CoreDataTutorial/TestCoreDataApp/TestCoreDataApp/AppDelegate.swift": [520645415, 0]
