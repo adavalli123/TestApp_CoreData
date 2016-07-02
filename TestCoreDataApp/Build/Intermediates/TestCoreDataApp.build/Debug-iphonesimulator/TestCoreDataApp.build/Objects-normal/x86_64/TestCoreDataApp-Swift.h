@@ -133,15 +133,14 @@ SWIFT_CLASS("_TtC15TestCoreDataApp13TableViewCell")
 @end
 
 @class NSManagedObject;
-@class NSIndexPath;
 @class UITableView;
+@class NSIndexPath;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC15TestCoreDataApp19TableViewController")
 @interface TableViewController : UIViewController <UIScrollViewDelegate, UITableViewDelegate>
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
 @property (nonatomic, copy) NSArray<NSManagedObject *> * _Nonnull people;
-@property (nonatomic, strong) NSIndexPath * _Nullable deletePlanetIndexPath;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;

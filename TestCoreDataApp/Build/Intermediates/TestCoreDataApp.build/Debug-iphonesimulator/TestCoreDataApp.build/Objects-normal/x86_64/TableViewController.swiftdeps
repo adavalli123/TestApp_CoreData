@@ -7,46 +7,45 @@ provides-member:
 - ["C15TestCoreDataApp19TableViewController", ""]
 provides-dynamic-lookup:
 - "viewDidLoad"
-- "fetchLog"
+- "saveName"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
 - "viewWillAppear"
-- "deletePlanetIndexPath"
-- "tableView"
-- "tableView"
-- "tableView"
-- "tableView"
-- "tableView"
+- "fetchLog"
 - "people"
 - "addNameBarButton"
-- "saveName"
 depends-top-level:
-- !private "BooleanLiteralType"
-- "UITableView"
-- !private "UIApplication"
-- "String"
-- !private "UITableViewRowAnimation"
-- "NSIndexPath"
 - "UITableViewDelegate"
-- !private "print"
-- "UITableViewCell"
-- !private "UIAlertAction"
-- !private "AppDelegate"
-- "Bool"
-- !private "NSEntityDescription"
-- !private "NSFetchRequest"
-- !private "TableViewCell"
-- !private "UITextField"
-- "AnyObject"
-- !private "Void"
+- "String"
 - "Int"
-- "UITableViewCellEditingStyle"
-- !private "Array"
-- "UIViewController"
+- "UITableViewCell"
+- !private "UITableViewRowAnimation"
+- !private "NSError"
+- !private "TableViewCell"
 - !private "StringLiteralType"
 - !private "=="
-- !private "NSError"
+- !private "UIAlertAction"
+- "UITableView"
+- !private "AppDelegate"
+- !private "NSFetchRequest"
+- !private "Array"
+- !private "UIAlertController"
+- !private "BooleanLiteralType"
+- "Bool"
+- !private "print"
+- "NSIndexPath"
+- !private "Void"
+- !private "UITextField"
+- "UITableViewCellEditingStyle"
 - "TableViewController"
 - "NSManagedObject"
-- !private "UIAlertController"
+- !private "NSEntityDescription"
+- !private "UIApplication"
+- "AnyObject"
+- "UIViewController"
 depends-member:
 - !private ["Ps9AnyObject", "NSEntityDescription"]
 - !private ["Ps9AnyObject", "NSFetchRequest"]
@@ -60,7 +59,6 @@ depends-member:
 - !private ["Ps9AnyObject", "addTextFieldWithConfigurationHandler"]
 - !private ["Ps9AnyObject", "delegate"]
 - !private ["Ps9AnyObject", "deleteObject"]
-- ["Ps9AnyObject", "deletePlanetIndexPath"]
 - !private ["Ps9AnyObject", "deleteRowsAtIndexPaths"]
 - !private ["Ps9AnyObject", "dequeueReusableCellWithIdentifier"]
 - !private ["Ps9AnyObject", "entityForName"]
@@ -89,6 +87,7 @@ depends-member:
 - ["Ps9AnyObject", "scrollViewWillBeginDragging"]
 - ["Ps9AnyObject", "scrollViewWillBeginZooming"]
 - ["Ps9AnyObject", "scrollViewWillEndDragging"]
+- !private ["Ps9AnyObject", "setEditing"]
 - !private ["Ps9AnyObject", "setNeedsLayout"]
 - !private ["Ps9AnyObject", "setValue"]
 - !private ["Ps9AnyObject", "sharedApplication"]
@@ -151,7 +150,6 @@ depends-member:
 - !private ["Ps11CVarArgType", "addTextFieldWithConfigurationHandler"]
 - !private ["Ps11CVarArgType", "delegate"]
 - !private ["Ps11CVarArgType", "deleteObject"]
-- ["Ps11CVarArgType", "deletePlanetIndexPath"]
 - !private ["Ps11CVarArgType", "deleteRowsAtIndexPaths"]
 - !private ["Ps11CVarArgType", "dequeueReusableCellWithIdentifier"]
 - !private ["Ps11CVarArgType", "entityForName"]
@@ -180,6 +178,7 @@ depends-member:
 - ["Ps11CVarArgType", "scrollViewWillBeginDragging"]
 - ["Ps11CVarArgType", "scrollViewWillBeginZooming"]
 - ["Ps11CVarArgType", "scrollViewWillEndDragging"]
+- !private ["Ps11CVarArgType", "setEditing"]
 - !private ["Ps11CVarArgType", "setNeedsLayout"]
 - !private ["Ps11CVarArgType", "setValue"]
 - !private ["Ps11CVarArgType", "sharedApplication"]
@@ -228,7 +227,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "count"]
 - !private ["Ps28CustomDebugStringConvertible", "delegate"]
 - !private ["Ps28CustomDebugStringConvertible", "deleteObject"]
-- ["Ps28CustomDebugStringConvertible", "deletePlanetIndexPath"]
 - !private ["Ps28CustomDebugStringConvertible", "deleteRowsAtIndexPaths"]
 - !private ["Ps28CustomDebugStringConvertible", "dequeueReusableCellWithIdentifier"]
 - !private ["Ps28CustomDebugStringConvertible", "entityForName"]
@@ -259,6 +257,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "scrollViewWillBeginDragging"]
 - ["Ps28CustomDebugStringConvertible", "scrollViewWillBeginZooming"]
 - ["Ps28CustomDebugStringConvertible", "scrollViewWillEndDragging"]
+- !private ["Ps28CustomDebugStringConvertible", "setEditing"]
 - !private ["Ps28CustomDebugStringConvertible", "setNeedsLayout"]
 - !private ["Ps28CustomDebugStringConvertible", "setValue"]
 - !private ["Ps28CustomDebugStringConvertible", "sharedApplication"]
@@ -296,7 +295,6 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "count"]
 - !private ["Ps23CustomStringConvertible", "delegate"]
 - !private ["Ps23CustomStringConvertible", "deleteObject"]
-- ["Ps23CustomStringConvertible", "deletePlanetIndexPath"]
 - !private ["Ps23CustomStringConvertible", "deleteRowsAtIndexPaths"]
 - !private ["Ps23CustomStringConvertible", "dequeueReusableCellWithIdentifier"]
 - !private ["Ps23CustomStringConvertible", "entityForName"]
@@ -327,6 +325,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "scrollViewWillBeginDragging"]
 - ["Ps23CustomStringConvertible", "scrollViewWillBeginZooming"]
 - ["Ps23CustomStringConvertible", "scrollViewWillEndDragging"]
+- !private ["Ps23CustomStringConvertible", "setEditing"]
 - !private ["Ps23CustomStringConvertible", "setNeedsLayout"]
 - !private ["Ps23CustomStringConvertible", "setValue"]
 - !private ["Ps23CustomStringConvertible", "sharedApplication"]
@@ -363,7 +362,6 @@ depends-member:
 - !private ["Ps9Equatable", "addTextFieldWithConfigurationHandler"]
 - !private ["Ps9Equatable", "delegate"]
 - !private ["Ps9Equatable", "deleteObject"]
-- ["Ps9Equatable", "deletePlanetIndexPath"]
 - !private ["Ps9Equatable", "deleteRowsAtIndexPaths"]
 - !private ["Ps9Equatable", "dequeueReusableCellWithIdentifier"]
 - !private ["Ps9Equatable", "entityForName"]
@@ -392,6 +390,7 @@ depends-member:
 - ["Ps9Equatable", "scrollViewWillBeginDragging"]
 - ["Ps9Equatable", "scrollViewWillBeginZooming"]
 - ["Ps9Equatable", "scrollViewWillEndDragging"]
+- !private ["Ps9Equatable", "setEditing"]
 - !private ["Ps9Equatable", "setNeedsLayout"]
 - !private ["Ps9Equatable", "setValue"]
 - !private ["Ps9Equatable", "sharedApplication"]
@@ -432,7 +431,6 @@ depends-member:
 - !private ["Ps8Hashable", "addTextFieldWithConfigurationHandler"]
 - !private ["Ps8Hashable", "delegate"]
 - !private ["Ps8Hashable", "deleteObject"]
-- ["Ps8Hashable", "deletePlanetIndexPath"]
 - !private ["Ps8Hashable", "deleteRowsAtIndexPaths"]
 - !private ["Ps8Hashable", "dequeueReusableCellWithIdentifier"]
 - !private ["Ps8Hashable", "entityForName"]
@@ -461,6 +459,7 @@ depends-member:
 - ["Ps8Hashable", "scrollViewWillBeginDragging"]
 - ["Ps8Hashable", "scrollViewWillBeginZooming"]
 - ["Ps8Hashable", "scrollViewWillEndDragging"]
+- !private ["Ps8Hashable", "setEditing"]
 - !private ["Ps8Hashable", "setNeedsLayout"]
 - !private ["Ps8Hashable", "setValue"]
 - !private ["Ps8Hashable", "sharedApplication"]
@@ -548,7 +547,6 @@ depends-member:
 - !private ["PSo8NSCoding", "addTextFieldWithConfigurationHandler"]
 - !private ["PSo8NSCoding", "delegate"]
 - !private ["PSo8NSCoding", "deleteObject"]
-- ["PSo8NSCoding", "deletePlanetIndexPath"]
 - !private ["PSo8NSCoding", "deleteRowsAtIndexPaths"]
 - !private ["PSo8NSCoding", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo8NSCoding", "entityForName"]
@@ -576,6 +574,7 @@ depends-member:
 - ["PSo8NSCoding", "scrollViewWillBeginDragging"]
 - ["PSo8NSCoding", "scrollViewWillBeginZooming"]
 - ["PSo8NSCoding", "scrollViewWillEndDragging"]
+- !private ["PSo8NSCoding", "setEditing"]
 - !private ["PSo8NSCoding", "setNeedsLayout"]
 - ["PSo8NSCoding", "tableView"]
 - !private ["PSo8NSCoding", "text"]
@@ -603,7 +602,6 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "addAction"]
 - ["PSo26NSExtensionRequestHandling", "addNameBarButton"]
 - !private ["PSo26NSExtensionRequestHandling", "addTextFieldWithConfigurationHandler"]
-- ["PSo26NSExtensionRequestHandling", "deletePlanetIndexPath"]
 - ["PSo26NSExtensionRequestHandling", "fetchLog"]
 - ["PSo26NSExtensionRequestHandling", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSo26NSExtensionRequestHandling", "init"]
@@ -669,7 +667,6 @@ depends-member:
 - !private ["CSo8NSObject", "addTextFieldWithConfigurationHandler"]
 - !private ["CSo8NSObject", "delegate"]
 - !private ["CSo8NSObject", "deleteObject"]
-- ["CSo8NSObject", "deletePlanetIndexPath"]
 - !private ["CSo8NSObject", "deleteRowsAtIndexPaths"]
 - !private ["CSo8NSObject", "dequeueReusableCellWithIdentifier"]
 - !private ["CSo8NSObject", "entityForName"]
@@ -698,6 +695,7 @@ depends-member:
 - ["CSo8NSObject", "scrollViewWillBeginDragging"]
 - ["CSo8NSObject", "scrollViewWillBeginZooming"]
 - ["CSo8NSObject", "scrollViewWillEndDragging"]
+- !private ["CSo8NSObject", "setEditing"]
 - !private ["CSo8NSObject", "setNeedsLayout"]
 - !private ["CSo8NSObject", "setValue"]
 - !private ["CSo8NSObject", "sharedApplication"]
@@ -723,7 +721,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "addTextFieldWithConfigurationHandler"]
 - !private ["PSo16NSObjectProtocol", "delegate"]
 - !private ["PSo16NSObjectProtocol", "deleteObject"]
-- ["PSo16NSObjectProtocol", "deletePlanetIndexPath"]
 - !private ["PSo16NSObjectProtocol", "deleteRowsAtIndexPaths"]
 - !private ["PSo16NSObjectProtocol", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo16NSObjectProtocol", "entityForName"]
@@ -752,6 +749,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "scrollViewWillBeginDragging"]
 - ["PSo16NSObjectProtocol", "scrollViewWillBeginZooming"]
 - ["PSo16NSObjectProtocol", "scrollViewWillEndDragging"]
+- !private ["PSo16NSObjectProtocol", "setEditing"]
 - !private ["PSo16NSObjectProtocol", "setNeedsLayout"]
 - !private ["PSo16NSObjectProtocol", "setValue"]
 - !private ["PSo16NSObjectProtocol", "sharedApplication"]
@@ -841,7 +839,6 @@ depends-member:
 - !private ["C15TestCoreDataApp19TableViewController", "Void"]
 - ["C15TestCoreDataApp19TableViewController", "addNameBarButton"]
 - ["C15TestCoreDataApp19TableViewController", "deinit"]
-- ["C15TestCoreDataApp19TableViewController", "deletePlanetIndexPath"]
 - ["C15TestCoreDataApp19TableViewController", "fetchLog"]
 - ["C15TestCoreDataApp19TableViewController", "indexPathForPreferredFocusedViewInTableView"]
 - ["C15TestCoreDataApp19TableViewController", "init"]
@@ -871,6 +868,7 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo29UIAccessibilityIdentification", "nameLabel"]
 - !private ["PSo29UIAccessibilityIdentification", "reloadData"]
+- !private ["PSo29UIAccessibilityIdentification", "setEditing"]
 - !private ["PSo29UIAccessibilityIdentification", "setNeedsLayout"]
 - !private ["PSo29UIAccessibilityIdentification", "text"]
 - !private ["CSo13UIAlertAction", "init"]
@@ -886,6 +884,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo12UIAppearance", "nameLabel"]
 - !private ["PSo12UIAppearance", "reloadData"]
+- !private ["PSo12UIAppearance", "setEditing"]
 - !private ["PSo12UIAppearance", "setNeedsLayout"]
 - !private ["PSo12UIAppearance", "text"]
 - !private ["PSo21UIAppearanceContainer", "NSEntityDescription"]
@@ -899,7 +898,6 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "addNameBarButton"]
 - !private ["PSo21UIAppearanceContainer", "addTextFieldWithConfigurationHandler"]
 - !private ["PSo21UIAppearanceContainer", "delegate"]
-- ["PSo21UIAppearanceContainer", "deletePlanetIndexPath"]
 - !private ["PSo21UIAppearanceContainer", "deleteRowsAtIndexPaths"]
 - !private ["PSo21UIAppearanceContainer", "dequeueReusableCellWithIdentifier"]
 - ["PSo21UIAppearanceContainer", "fetchLog"]
@@ -923,6 +921,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "scrollViewWillBeginDragging"]
 - ["PSo21UIAppearanceContainer", "scrollViewWillBeginZooming"]
 - ["PSo21UIAppearanceContainer", "scrollViewWillEndDragging"]
+- !private ["PSo21UIAppearanceContainer", "setEditing"]
 - !private ["PSo21UIAppearanceContainer", "setNeedsLayout"]
 - ["PSo21UIAppearanceContainer", "tableView"]
 - !private ["PSo21UIAppearanceContainer", "text"]
@@ -946,7 +945,6 @@ depends-member:
 - !private ["PSo18UIContentContainer", "addAction"]
 - ["PSo18UIContentContainer", "addNameBarButton"]
 - !private ["PSo18UIContentContainer", "addTextFieldWithConfigurationHandler"]
-- ["PSo18UIContentContainer", "deletePlanetIndexPath"]
 - ["PSo18UIContentContainer", "fetchLog"]
 - ["PSo18UIContentContainer", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSo18UIContentContainer", "init"]
@@ -980,6 +978,7 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo17UICoordinateSpace", "nameLabel"]
 - !private ["PSo17UICoordinateSpace", "reloadData"]
+- !private ["PSo17UICoordinateSpace", "setEditing"]
 - !private ["PSo17UICoordinateSpace", "setNeedsLayout"]
 - !private ["PSo17UICoordinateSpace", "text"]
 - !private ["PSo13UIDynamicItem", "delegate"]
@@ -987,6 +986,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo13UIDynamicItem", "nameLabel"]
 - !private ["PSo13UIDynamicItem", "reloadData"]
+- !private ["PSo13UIDynamicItem", "setEditing"]
 - !private ["PSo13UIDynamicItem", "setNeedsLayout"]
 - !private ["PSo13UIDynamicItem", "text"]
 - !private ["PSo18UIFocusEnvironment", "NSEntityDescription"]
@@ -1000,7 +1000,6 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "addNameBarButton"]
 - !private ["PSo18UIFocusEnvironment", "addTextFieldWithConfigurationHandler"]
 - !private ["PSo18UIFocusEnvironment", "delegate"]
-- ["PSo18UIFocusEnvironment", "deletePlanetIndexPath"]
 - !private ["PSo18UIFocusEnvironment", "deleteRowsAtIndexPaths"]
 - !private ["PSo18UIFocusEnvironment", "dequeueReusableCellWithIdentifier"]
 - ["PSo18UIFocusEnvironment", "fetchLog"]
@@ -1024,6 +1023,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "scrollViewWillBeginDragging"]
 - ["PSo18UIFocusEnvironment", "scrollViewWillBeginZooming"]
 - ["PSo18UIFocusEnvironment", "scrollViewWillEndDragging"]
+- !private ["PSo18UIFocusEnvironment", "setEditing"]
 - !private ["PSo18UIFocusEnvironment", "setNeedsLayout"]
 - ["PSo18UIFocusEnvironment", "tableView"]
 - !private ["PSo18UIFocusEnvironment", "text"]
@@ -1061,7 +1061,6 @@ depends-member:
 - ["CSo11UIResponder", "addNameBarButton"]
 - !private ["CSo11UIResponder", "addTextFieldWithConfigurationHandler"]
 - !private ["CSo11UIResponder", "delegate"]
-- ["CSo11UIResponder", "deletePlanetIndexPath"]
 - !private ["CSo11UIResponder", "deleteRowsAtIndexPaths"]
 - !private ["CSo11UIResponder", "dequeueReusableCellWithIdentifier"]
 - ["CSo11UIResponder", "fetchLog"]
@@ -1086,6 +1085,7 @@ depends-member:
 - ["CSo11UIResponder", "scrollViewWillBeginDragging"]
 - ["CSo11UIResponder", "scrollViewWillBeginZooming"]
 - ["CSo11UIResponder", "scrollViewWillEndDragging"]
+- !private ["CSo11UIResponder", "setEditing"]
 - !private ["CSo11UIResponder", "setNeedsLayout"]
 - !private ["CSo11UIResponder", "sharedApplication"]
 - ["CSo11UIResponder", "tableView"]
@@ -1100,6 +1100,7 @@ depends-member:
 - !private ["CSo12UIScrollView", "deleteRowsAtIndexPaths"]
 - !private ["CSo12UIScrollView", "dequeueReusableCellWithIdentifier"]
 - !private ["CSo12UIScrollView", "reloadData"]
+- !private ["CSo12UIScrollView", "setEditing"]
 - !private ["PSo20UIScrollViewDelegate", "NSEntityDescription"]
 - !private ["PSo20UIScrollViewDelegate", "NSFetchRequest"]
 - ["PSo20UIScrollViewDelegate", "NSManagedObject"]
@@ -1139,7 +1140,6 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "addAction"]
 - ["PSo16UIStateRestoring", "addNameBarButton"]
 - !private ["PSo16UIStateRestoring", "addTextFieldWithConfigurationHandler"]
-- ["PSo16UIStateRestoring", "deletePlanetIndexPath"]
 - ["PSo16UIStateRestoring", "fetchLog"]
 - ["PSo16UIStateRestoring", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSo16UIStateRestoring", "init"]
@@ -1171,6 +1171,7 @@ depends-member:
 - !private ["CSo11UITableView", "deleteRowsAtIndexPaths"]
 - !private ["CSo11UITableView", "dequeueReusableCellWithIdentifier"]
 - !private ["CSo11UITableView", "reloadData"]
+- !private ["CSo11UITableView", "setEditing"]
 - !private ["CSo15UITableViewCell", "nameLabel"]
 - !private ["OSC27UITableViewCellEditingStyle", "Delete"]
 - !private ["OSC27UITableViewCellEditingStyle", "RawValue"]
@@ -1219,7 +1220,6 @@ depends-member:
 - ["PSo18UITraitEnvironment", "addNameBarButton"]
 - !private ["PSo18UITraitEnvironment", "addTextFieldWithConfigurationHandler"]
 - !private ["PSo18UITraitEnvironment", "delegate"]
-- ["PSo18UITraitEnvironment", "deletePlanetIndexPath"]
 - !private ["PSo18UITraitEnvironment", "deleteRowsAtIndexPaths"]
 - !private ["PSo18UITraitEnvironment", "dequeueReusableCellWithIdentifier"]
 - ["PSo18UITraitEnvironment", "fetchLog"]
@@ -1243,6 +1243,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "scrollViewWillBeginDragging"]
 - ["PSo18UITraitEnvironment", "scrollViewWillBeginZooming"]
 - ["PSo18UITraitEnvironment", "scrollViewWillEndDragging"]
+- !private ["PSo18UITraitEnvironment", "setEditing"]
 - !private ["PSo18UITraitEnvironment", "setNeedsLayout"]
 - ["PSo18UITraitEnvironment", "tableView"]
 - !private ["PSo18UITraitEnvironment", "text"]
@@ -1258,6 +1259,7 @@ depends-member:
 - !private ["CSo6UIView", "dequeueReusableCellWithIdentifier"]
 - !private ["CSo6UIView", "nameLabel"]
 - !private ["CSo6UIView", "reloadData"]
+- !private ["CSo6UIView", "setEditing"]
 - !private ["CSo6UIView", "setNeedsLayout"]
 - !private ["CSo6UIView", "text"]
 - ["CSo16UIViewController", "AnyObject"]
@@ -1283,7 +1285,6 @@ depends-member:
 - !private ["CSo16UIViewController", "addAction"]
 - ["CSo16UIViewController", "addNameBarButton"]
 - !private ["CSo16UIViewController", "addTextFieldWithConfigurationHandler"]
-- ["CSo16UIViewController", "deletePlanetIndexPath"]
 - ["CSo16UIViewController", "fetchLog"]
 - ["CSo16UIViewController", "indexPathForPreferredFocusedViewInTableView"]
 - ["CSo16UIViewController", "init"]
@@ -1387,6 +1388,7 @@ depends-member:
 - !private ["Ps12_Reflectable", "nameLabel"]
 - !private ["Ps12_Reflectable", "reloadData"]
 - !private ["Ps12_Reflectable", "removeAtIndex"]
+- !private ["Ps12_Reflectable", "setEditing"]
 - !private ["Ps12_Reflectable", "setNeedsLayout"]
 - !private ["Ps12_Reflectable", "subscript"]
 - !private ["Ps12_Reflectable", "text"]
@@ -1529,4 +1531,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
-interface-hash: "2a4260b1c2719c5f15f7d8d919daef86"
+interface-hash: "9c374a29e331e93f1fe8d00a2fca7aa5"

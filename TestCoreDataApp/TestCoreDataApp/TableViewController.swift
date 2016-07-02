@@ -58,9 +58,6 @@ class TableViewController: UIViewController, UITableViewDelegate {
             }
             
             self.tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Automatic)
-            
-            //            self.saveName(nil)
-            tableView.reloadData()
         }
     }
     
