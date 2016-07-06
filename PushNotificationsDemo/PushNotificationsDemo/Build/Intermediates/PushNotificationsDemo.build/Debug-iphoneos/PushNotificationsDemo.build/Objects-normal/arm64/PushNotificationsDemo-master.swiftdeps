@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "008080ea40b3387958783dcb1f22bf75"
+build_time: [520876801, 562074000]
+inputs:
+  "/Users/srikanthadavalli/Documents/iOS_Projects/CoreDataTutorial/PushNotificationsDemo/PushNotificationsDemo/PushNotificationsDemo/ViewController.swift": [520820852, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/CoreDataTutorial/PushNotificationsDemo/PushNotificationsDemo/PushNotificationsDemo/AppDelegate.swift": [520875862, 0]
